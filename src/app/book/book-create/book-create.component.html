@@ -1,0 +1,21 @@
+<h1>Tao ms sp</h1>
+<form [formGroup]="bookForm" (ngSubmit)="submit()">
+  <table>
+    <tr>
+      <td>Tên Sach:</td>
+      <td><input type="text" formControlName="title"></td>
+    </tr>
+    <tr>
+      <td>Ten Tac Gia</td>
+      <td><input type="text" formControlName="author"></td>
+    </tr>
+    <tr>
+      <td>mo ta</td>
+      <td><input type="text" formControlName="description"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button>Tạo mới</button></td>
+    </tr>
+  </table>
+</form>
